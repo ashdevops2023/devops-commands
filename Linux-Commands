@@ -1,3 +1,5 @@
+All LS Commands:
+
 ls - List files and directories in the current directory.
 ls -l - List in long format, displaying detailed information about files and directories.
 ls -a - List all files, including hidden files (those starting with a dot).
