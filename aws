@@ -1,1 +1,6 @@
 ### Linux shell command for AWS Command Line Interface (AWS CLI) to retrieve the AWS account ID associated with the currently authenticated AWS user or service.
+# Store the AWS account ID in a variable
+aws_account_id=$(aws sts get-caller-identity --query 'Account' --output text)
+
+# Print the AWS account ID from the variable
+echo "AWS Account ID: $aws_account_id"
